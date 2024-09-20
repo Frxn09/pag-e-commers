@@ -10,4 +10,4 @@
 
 * Esta aplicacion esta creada con ViteJs.
 * Clonarla: git clone https://github.com/Frxn09/PreEntrega1DitellaReact
-* Para iniciarla, luego de clonar, cd carpeta, ejecute npm i para instalar dependencias y luego npm run dev para arrancar el servidor de desarrollo.
+* Para iniciarla, luego de clonar, cd "nombre de la carpeta", ejecute npm i para instalar dependencias y luego npm run dev para arrancar el servidor de desarrollo.
