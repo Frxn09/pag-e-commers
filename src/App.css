@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#cart_widget span {
+  padding-top: 17px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.Cards {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card-body {
+  height: 200px;
+}
+.conter {
+  margin-bottom: 25px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  max-width: auto;
+}
+.outconter {
+  width: 100%;
+  min-height: 100%;
+}
+#navBar {
+  display: flex;
+  background: #4a4e69;
+  color: white;
+}
+.links {
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.details {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title title"
+    "img description"
+    "img description"
+    "dproduct dproduct";
+  justify-content: center;
+  h1 {
+    grid-area: title;
+    height: max-content;
+    margin-left: 100px;
+  }
+  .imgs {
+    border-radius: 5px;
+    grid-area: img;
+    width: 500px;
+    height: 500px;
+  }
+  #descrip {
+    grid-area: description;
+  }
+  aside {
+    margin-right: 200px;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 6px;
+  }
+}
+#medios {
+  padding: 15px;
+  margin-right: 200px;
+  border: 2px solid gray;
+  padding-top: 10px;
+  border-radius: 6px;
+}
+.pago {
+  padding: 3px;
+}
+#remove {
+  border: 2px solid gray;
+  border-radius: 6px;
+  width: 20px;
+}
+.price {
+  display: flex;
+  gap: 40px;
+}
+#exconter {
+  height: 100%;
+  width: 100%;
+}
+.buton {
+  background-color: #f2e9e4;
+  color: black;
+  border-color: black;
+  transition: 0.4s;
+}
+.buton:hover {
+  background-color: #c9ada7;
+  color: black;
+  border-color: black;
+}
+#franco3 {
+  display: flex;
+  background-color: antiquewhite;
+  color: black;
+  border-color: black;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+#produc {
+  width: 60px;
+}
+#totalboton {
+  margin-bottom: 13px;
+  margin-left: 205px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+#formulario {
+  margin-top: 30px;
+  display: grid;
+  width: 300px;
+}
+#enviar {
+  margin-left: 90px;
+  margin-top: 15px;
+  width: 100px;
+}
+#dtitle {
+  margin-top: 40px;
+}
+.butonmema {
+  border: 2px solid darkgray;
+  border-radius: 5px;
+}
+body {
+  position: relative;
+  padding-bottom: 90px;
+  min-height: 100vh;
+}
+footer {
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  font-size: 18px;
+  background-color: #4a4e69;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
